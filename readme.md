@@ -21,4 +21,7 @@ isso irá instalar as bibliotecas e a pasta node_modules
 ```
 npm run dev
 ```
+
+![Alt text](src/assets/preview.png)
+
 #### `githubapi-listaderepositorios-react-js`

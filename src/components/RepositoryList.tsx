@@ -12,7 +12,7 @@ export function RepositoryList() {
     const [repositories, setRepositories] = useState<Repository[]>([]);
 
     useEffect (() => {
-        fetch("https://api.github.com/orgs/rocketseat/repos")
+        fetch("https://api.github.com/users/bielaugustos/repos")
         .then(response => response.json())
         .then(data => setRepositories(data))
     }, []); // toda vez que repositories mudar, a função dentro do useEffect será executada
